@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ledisdb/ledisdb/store"
+	"github.com/hello2dj/ledisdb/store"
 	"github.com/siddontang/go/num"
 )
 
@@ -148,8 +148,9 @@ func (db *DB) hSetItem(key []byte, field []byte, value []byte) (int64, error) {
 	return n, nil
 }
 
-//	ps : here just focus on deleting the hash data,
-//		 any other likes expire is ignore.
+// ps : here just focus on deleting the hash data,
+//
+//	any other likes expire is ignore.
 func (db *DB) hDelete(t *batch, key []byte) int64 {
 	sk := db.hEncodeSizeKey(key)
 	start := db.hEncodeStartKey(key)

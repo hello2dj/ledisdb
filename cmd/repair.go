@@ -3,8 +3,8 @@ package cmd
 import (
 	"flag"
 
-	"github.com/ledisdb/ledisdb/config"
-	"github.com/ledisdb/ledisdb/store"
+	"github.com/hello2dj/ledisdb/config"
+	"github.com/hello2dj/ledisdb/store"
 )
 
 func Repair() {

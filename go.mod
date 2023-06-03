@@ -1,4 +1,4 @@
-module github.com/ledisdb/ledisdb
+module github.com/hello2dj/ledisdb
 
 go 1.12
 

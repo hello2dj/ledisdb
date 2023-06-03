@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ledisdb/ledisdb/ledis"
+	"github.com/hello2dj/ledisdb/ledis"
 	"github.com/siddontang/go/hack"
 	"github.com/siddontang/go/log"
 	"github.com/siddontang/goredis"
@@ -292,10 +292,10 @@ func (app *App) migrateKeyUnlock(tp string, key []byte) {
 	l.Unlock(key)
 }
 
-//XMIGRATEDB host port tp count db timeout
-//select count tp type keys and migrate
-//will block any other write operations
-//maybe only for xcodis
+// XMIGRATEDB host port tp count db timeout
+// select count tp type keys and migrate
+// will block any other write operations
+// maybe only for xcodis
 func xmigratedbCommand(c *client) error {
 	args := c.args
 	if len(args) != 6 {
@@ -372,9 +372,9 @@ func parseMigrateDB(c *client, arg []byte) (uint64, error) {
 	return db, nil
 }
 
-//XMIGRATE host port type key destination-db timeout
-//will block any other write operations
-//maybe only for xcodis
+// XMIGRATE host port type key destination-db timeout
+// will block any other write operations
+// maybe only for xcodis
 func xmigrateCommand(c *client) error {
 	args := c.args
 

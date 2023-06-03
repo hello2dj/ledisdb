@@ -1,12 +1,7 @@
 #!/bin/bash
 
 export LEDISTOP=$(pwd)
-export LEDISROOT="${LEDISROOT:-${LEDISTOP/\/src\/github.com\/ledisdb\/ledisdb/}}"
-# LEDISTOP sanity check
-if [[ "$LEDISTOP" == "${LEDISTOP/\/src\/github.com\/ledisdb\/ledisdb/}" ]]; then
-    echo "WARNING: LEDISTOP($LEDISTOP) does not contain src/github.com/ledisdb/ledisdb"
-    false
-fi
+export LEDISROOT="${LEDISROOT:-${LEDISTOP/\/github.com\/ledisdb\/ledisdb/}}"
 
 #default snappy and leveldb install path
 #you may change yourself

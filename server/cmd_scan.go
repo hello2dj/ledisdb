@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ledisdb/ledisdb/ledis"
+	"github.com/hello2dj/ledisdb/ledis"
 	"github.com/siddontang/go/hack"
 	"github.com/siddontang/go/num"
 )

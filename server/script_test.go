@@ -3,7 +3,7 @@ package server
 import (
 	"fmt"
 
-	"github.com/ledisdb/ledisdb/config"
+	"github.com/hello2dj/ledisdb/config"
 	lua "github.com/yuin/gopher-lua"
 
 	"testing"

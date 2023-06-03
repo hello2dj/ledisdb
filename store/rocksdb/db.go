@@ -1,3 +1,4 @@
+//go:build rocksdb
 // +build rocksdb
 
 // Package rocksdb is a wrapper for c++ rocksdb
@@ -16,8 +17,8 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/ledisdb/ledisdb/config"
-	"github.com/ledisdb/ledisdb/store/driver"
+	"github.com/hello2dj/ledisdb/config"
+	"github.com/hello2dj/ledisdb/store/driver"
 )
 
 const defaultFilterBits int = 10

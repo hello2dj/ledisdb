@@ -1,3 +1,4 @@
+//go:build leveldb
 // +build leveldb
 
 package leveldb
@@ -7,7 +8,7 @@ package leveldb
 import "C"
 
 import (
-	"github.com/ledisdb/ledisdb/store/driver"
+	"github.com/hello2dj/ledisdb/store/driver"
 )
 
 type Snapshot struct {

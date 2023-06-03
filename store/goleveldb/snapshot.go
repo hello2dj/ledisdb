@@ -1,7 +1,7 @@
 package goleveldb
 
 import (
-	"github.com/ledisdb/ledisdb/store/driver"
+	"github.com/hello2dj/ledisdb/store/driver"
 	"github.com/syndtr/goleveldb/leveldb"
 )
 

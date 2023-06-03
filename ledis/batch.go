@@ -3,8 +3,8 @@ package ledis
 import (
 	"sync"
 
-	"github.com/ledisdb/ledisdb/rpl"
-	"github.com/ledisdb/ledisdb/store"
+	"github.com/hello2dj/ledisdb/rpl"
+	"github.com/hello2dj/ledisdb/store"
 	"github.com/siddontang/go/log"
 )
 

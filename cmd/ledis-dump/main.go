@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ledisdb/ledisdb/cmd"
+	"github.com/hello2dj/ledisdb/cmd"
 )
 
 var (

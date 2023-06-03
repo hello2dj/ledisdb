@@ -5,7 +5,7 @@ import (
 
 	_ "net/http/pprof"
 
-	"github.com/ledisdb/ledisdb/cmd"
+	"github.com/hello2dj/ledisdb/cmd"
 )
 
 var (

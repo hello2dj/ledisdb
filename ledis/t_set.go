@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ledisdb/ledisdb/store"
+	"github.com/hello2dj/ledisdb/store"
 	"github.com/siddontang/go/hack"
 )
 

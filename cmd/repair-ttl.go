@@ -5,9 +5,9 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/ledisdb/ledisdb/config"
-	"github.com/ledisdb/ledisdb/ledis"
-	"github.com/ledisdb/ledisdb/store"
+	"github.com/hello2dj/ledisdb/config"
+	"github.com/hello2dj/ledisdb/ledis"
+	"github.com/hello2dj/ledisdb/store"
 )
 
 func RepairTTL() {

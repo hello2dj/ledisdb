@@ -12,8 +12,8 @@ import (
 
 	"crypto/tls"
 
-	"github.com/ledisdb/ledisdb/config"
-	"github.com/ledisdb/ledisdb/ledis"
+	"github.com/hello2dj/ledisdb/config"
+	"github.com/hello2dj/ledisdb/ledis"
 	"github.com/siddontang/goredis"
 )
 

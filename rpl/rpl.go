@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ledisdb/ledisdb/config"
+	"github.com/hello2dj/ledisdb/config"
 	"github.com/siddontang/go/log"
 	"github.com/siddontang/go/snappy"
 )

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ledisdb/ledisdb/ledis"
+	"github.com/hello2dj/ledisdb/ledis"
 	"github.com/siddontang/go/hack"
 	"github.com/siddontang/go/num"
 )
@@ -149,8 +149,8 @@ func syncCommand(c *client) error {
 	return nil
 }
 
-//inner command, only for replication
-//REPLCONF <option> <value> <option> <value> ...
+// inner command, only for replication
+// REPLCONF <option> <value> <option> <value> ...
 func replconfCommand(c *client) error {
 	args := c.args
 	if len(args)%2 != 0 {

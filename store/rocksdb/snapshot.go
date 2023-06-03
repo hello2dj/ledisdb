@@ -1,3 +1,4 @@
+//go:build rocksdb
 // +build rocksdb
 
 package rocksdb
@@ -7,7 +8,7 @@ package rocksdb
 import "C"
 
 import (
-	"github.com/ledisdb/ledisdb/store/driver"
+	"github.com/hello2dj/ledisdb/store/driver"
 )
 
 type Snapshot struct {

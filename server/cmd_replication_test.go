@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ledisdb/ledisdb/config"
+	"github.com/hello2dj/ledisdb/config"
 	"github.com/siddontang/goredis"
 )
 
